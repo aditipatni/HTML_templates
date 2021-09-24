@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+</head>
+
+<body>
+    <form action="backend.php"></form>
+    <label for="name">Name</label>
+    <div>
+        <input type="text" name="myname" id="name">
+    </div>
+    <label for="interested">Are you interested in the program</label>
+    <div>
+        <input type="checkbox" name="myinterest" id="interested">
+    </div>
+    <label for="date">Select Date</label>
+    <div>
+        <input type="date" name="mydate" id="date">
+    </div>
+    <label for="person">You are booking the slot for how many people?</label>
+    <div>
+        <input type="number" name="myperson" id="person">
+    </div>
+    <label for="party">What kind of program you are interested in?</label>
+    <div>
+        <select name="hello" id="party">
+            <option value="meditation">meditation</option>
+            <option value="yoga">yoga</option>
+            <option value="cycling">cycling</option>
+            <option value="laughclub">laugh club</option>
+
+        </select>
+    </div>
+    <label for="eatable">Do you want beverage services after the program?</label>
+    <div>
+        yes<input type="radio" name="mybeverage">
+        no<input type="radio" name="mybeverage">
+    </div>
+    <label for="email">how can we contact you?</label>
+    <div>
+        <input type="email" name="myemail" id="email">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </div>
+
+</body>
+
+</html>
